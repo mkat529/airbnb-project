@@ -1,0 +1,483 @@
+body {
+	font-family: sans-serif;
+}
+
+.nav {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	height: 80px;
+}
+
+.logo {
+	height: 45px;
+}
+
+.search {
+  display: none;
+}
+
+.nav__links {
+	display: flex;
+	align-items: center;
+}
+
+.nav__link {
+	margin-left: 30px;
+	
+	font-size: 14px;
+}
+
+.nav__link button {
+	height: 32px;
+	width: 120px;
+	
+	color: #FFF;
+	border: none;
+	border-radius: 3px;
+	background-color: #00A699;
+}
+
+.container {
+	max-width: 1100px;
+	margin-left: auto;
+	margin-right: auto;
+  width: 100%;
+}
+
+.checked {
+  color: #00a69a;
+}
+
+
+
+.hero-cta {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding-top: 60px;
+	padding-bottom: 60px;
+}
+
+.hero-cta__headline {
+	margin-bottom: 14px;
+	
+	font-size: 22px;
+}
+
+.hero-cta__byline {
+	color: #ccc;
+  
+	font-size: 16px;
+}
+
+.hero-cards {
+	display: flex;
+	justify-content: center;
+  align-items: center;
+}
+
+.hero-card {
+	height: 300px;
+	width: 210px;
+  display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: flex-end;
+	padding: 18px;
+	margin-left: 15px;
+	margin-right: 15px;
+	
+	background-size: cover;
+	background-repeat: no-repeat;
+	border-radius: 3px;
+}
+
+.hero-card--iceland {
+	background-image: url('https://images.unsplash.com/photo-1529963183134-61a90db47eaf?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1650&q=80');
+}
+
+.hero-card--london {
+  background-image: url('https://thewire.in/wp-content/uploads/2017/04/London.jpeg');
+}
+
+.hero-card--greece {
+  background-image: url('https://www.thetimes.co.uk/imageserver/image/methode%2Ftimes%2Fprod%2Fweb%2Fbin%2F9b49e50c-1d9e-11e9-bcfa-eb6ef536f22f.jpg?crop=4240%2C2385%2C430%2C286&resize=685');
+}
+
+
+
+.hero-card--tall {
+	height: 340px;
+	-webkit-box-shadow: 0px 3px 48px -8px rgba(0,0,0,0.42);
+-moz-box-shadow: 0px 3px 48px -8px rgba(0,0,0,0.42);
+box-shadow: 0px 3px 48px -8px rgba(0,0,0,0.42);
+}
+
+.hero-card__category {
+	color: #fff;
+	font-size: 8px;
+	text-transform: uppercase;
+}
+
+.hero-card__destination {
+	color: #fff;
+	font-weight: 700;
+	font-size: 18px;
+	letter-spacing: .5px;
+}
+
+.hero-card button {
+	height: 38px;
+	width: 100%;
+	margin-top: 18px;	
+	border-radius: 3px;
+	border: none;
+	background-color: #fff;
+	text-transform: uppercase;
+}
+
+.hero-button--mobile{
+  display: none;
+}
+
+.travel {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+	justify-content: center;
+  height: 285px;
+  margin-top: 80px;  
+	padding: 10px 40px;
+  
+  background-color: #f5fbfb;
+  color: #595C60;
+}
+
+.travel-info {
+	width: 100%;
+  display: flex;
+  justify-content: space-between; 
+	margin-left: auto;
+	margin-right: auto; 
+}
+
+.travel-info h5 {
+	margin-top: 12px;
+	margin-bottom: 12px;
+}
+
+.travel-info p {
+	font-size: 15px; 
+	line-height: 1.5;
+}
+
+.trav {
+  width: 240px;
+}
+
+.explore-tab {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  margin-top: 65px;
+}
+
+.exp-pics {
+  width: 68px;
+  height: 68px;
+	margin-right: 16px;
+	border-top-left-radius: 3px;
+	border-bottom-left-radius: 3px;
+}
+
+.exp-links {
+  display: flex; 
+  justify-content: flex-start;
+  }
+
+.exp__help {
+  postions: relative;
+  
+  display: flex; 
+  align-items: center; 
+	margin-right: 16px;
+	height: 68px;
+  width: 200px;   
+	border-radius: 3px; 
+  -webkit-box-shadow: 0px 3px 48px -8px rgba(0,0,0,0.42);
+  -moz-box-shadow: 0px 3px 48px -8px rgba(0,0,0,0.42);
+  box-shadow: 0px 3px 48px -8px rgba(0,0,0,0.42);
+ 
+  background-color: #fff;
+}
+ 
+.airbnb-plus {
+  position: relative;
+  
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 320px;
+  margin-top: 40px;
+  border-radius: 3px;
+  margin-bottom: 65px;
+  
+  background-image: url('https://images.unsplash.com/photo-1513584684374-8bab748fbf90?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1346&q=80');
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;  
+}
+
+.plus{
+  width: 238px;
+}
+
+.airbnb-plus button {
+  height: 28px;
+	width: 200px;
+	margin-bottom: 50px;
+	border-radius: 3px;
+	border: none;
+	
+  background-color: #fff;
+
+  text-transform: uppercase;
+}
+
+.feature-tab {
+  position: relative;
+}
+
+.feat_title{
+  padding-bottom: 20px;
+  margin-left: 10px;
+
+  color: #424242;
+  
+  font-size: 30px;
+ letter-spacing: 1px;
+ }
+
+.feat_homes {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+ 
+}
+
+.homes {
+  width: 31.3333%;
+  margin-bottom: 20px;
+  box-shadow: 0px 3px 48px -8px rgba(0, 0, 0, 0.42);
+}
+
+.home-pic {
+  height: 247px;
+  width: 100%;
+  
+  background-image: url("https://cdn.vox-cdn.com/thumbor/MNmrMZsA4UjaUMoEZHIxwGUBcz8=/1400x1400/filters:format(jpeg)/cdn.vox-cdn.com/uploads/chorus_asset/file/10686791/Hilton_Panama_Alienware_Room_Gaming_hotel_room_12.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.home-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 15px;
+}
+
+.home-type {
+  font-size: 12px;
+}
+
+.home-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  width: 100%;
+  }
+
+.rating {
+  display: flex;
+  width: 40%;
+ }
+
+.reviews{
+  margin-left: 8px;
+  margin-top: 3px;
+}
+
+.reviews,
+.home-price {
+  font-size: 10px;
+}
+
+.home-booking {
+  align-self: flex-end;
+  padding: 7px 7px;
+  border: none;
+  
+  background-color: #ff5a60;
+  color: #fff;
+  
+  font-size: 11px;
+}
+
+.footer{
+  display: flex;
+  justify-content: center; 
+  margin-top: 100px;
+}
+
+/*moblie */
+
+@media (max-width: 600px) {
+	
+  .nav {
+    border-bottom: 1px solid #AAA9A9;
+  }
+  
+  .nav__links {
+    display: none;
+  }
+  
+  .nav__link {
+    display: none;
+  } 
+  
+  .nav__link button {
+    display: none;
+  }	
+  
+  .search {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   width: 100%;
+   height: 30px;
+   padding-left: 10px;
+   padding-right: 10px;
+  
+   color: #AAA9A9;
+   box-shadow: 0px 6px 8px -4px rgba(170,169,169,1);
+  }
+  
+  
+  .hero-cta {
+    padding-top: 42px;
+    padding-bottom: 42px; 
+  }
+  
+  
+  
+  
+  
+  .hero-card, .hero-card--tall {
+		padding: 0px;
+		justify-content: center;
+		height: 125px;
+		width: 150px;
+		margin-left: 7px;
+		margin-right: 7px;
+	}
+	
+	.hero-card button {
+		display: none;
+	}
+	
+	.hero-card__category {
+		display: none;
+	}
+	
+	.hero-button--mobile {
+		display: block;
+		height: 42px;
+    width: 170px;
+		margin-left: auto;
+    margin-right: auto;
+		margin-top: 35px;
+		
+    color: #FFF;
+    border: none;
+    border-radius: 3px;
+    background-color: #00A699;
+		text-transform: uppercase;
+	}
+	
+  .travel {
+    margin-top: 33px;
+    height: 552px;
+  }
+  
+ .travel-info {
+  flex-direction: column;
+  } 
+	
+  .feature {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 9px
+  }
+  
+  .trav {
+    margin-top: 5px;
+    
+    text-align: center;
+  }
+  
+  .explore-tab {
+    margin-top: 47px;
+    margin-bottom: 20px;
+  }
+  
+  .exp-links {
+    flex-direction: column;
+  }
+  
+  .exp__help {
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+  }
+  
+  .airbnb-plus {
+    width: 380px;
+    margin-left: auto;
+    margin-right:auto;
+  }
+  
+  .plus {
+    width: 150px;
+  }
+  
+  .airbnb-plus button {
+    width: 178px;
+  }
+  
+  .feature-tab {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .feat_homes {
+    margin-top: 23px;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    width: 355px;
+  }
+  
+  .homes {
+    margin-bottom: 36px;
+    width: 100%;
+  }
+}
